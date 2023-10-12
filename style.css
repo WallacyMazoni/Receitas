@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #ea967a;
+    font-family: 'Kanit', sans-serif;
+    font-size: 100%;
+}
+
+.navtexto{
+    color: black;
+}
