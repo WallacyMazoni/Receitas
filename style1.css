@@ -21,7 +21,7 @@ body{
     justify-content:flex-start;
 }
 
-.navtextomenu{
+.navtextoyes{
     border-style:groove;
     border-color: black;
     border-radius: 15px;
@@ -30,7 +30,7 @@ body{
     font-family: 'Kanit', sans-serif;
 }
 
-.navtextoreceitas{
+.navtextono{
     border-style:groove;
     border-color:gray;
     border-radius: 15px;

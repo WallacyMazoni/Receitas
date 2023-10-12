@@ -21,7 +21,7 @@ body{
     justify-content:flex-start;
 }
 
-.navtextoreceitas{
+.navtextoyes{
     border-style:groove;
     border-color: black;
     border-radius: 15px;
@@ -30,13 +30,42 @@ body{
     font-family: 'Kanit', sans-serif;
 }
 
-.navtextomenu{
+.navtextono{
     border-style:groove;
     border-color:gray;
     border-radius: 15px;
     color: black;
     padding: 10px;
     font-family: 'Kanit', sans-serif;
+}
+
+.sessaoimagem{
+    justify-content: left;
+    padding: 48px;
+}
+
+.banner{
+    border-style: groove;
+    border-color: #000000;
+    border-right: 0.4px, solid #000000;
+    display: block;
+}
+
+.maintext{
+    display: block;
+    align-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tittlepag{
+    padding-top: 48px;
+    padding-bottom: 24px;
+}
+
+p{
+    text-indent: 40px;
+    text-anchor: middle;
+    text
 }
 
 .devtext{
@@ -47,6 +76,10 @@ body{
     text-decoration: none;
     color: aliceblue;
     padding-left: 8px;
+}
+
+section{
+    display:flex;
 }
 
 footer{
