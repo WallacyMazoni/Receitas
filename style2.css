@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Kanit:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #ea967a;
+    font-family: 'Autour-One', sans-serif;
+    font-size: 100%;
+    color: black;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    justify-content:flex-start;
+}
+
+.navtextoreceitas{
+    border-style:groove;
+    border-color: black;
+    border-radius: 15px;
+    color: black;
+    padding: 10px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.navtextomenu{
+    border-style:groove;
+    border-color:gray;
+    border-radius: 15px;
+    color: black;
+    padding: 10px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.devtext{
+    padding-left: 84px;
+}
+
+.linkgit{
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 8px;
+}
+
+footer{
+    padding: 32px;
+    display: flex;
+    color:rgb(253, 240, 220);
+    background-color: rgb(36, 35, 35);
+    justify-content: center;
+    align-content:center;
+    max-height: max-content;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    bottom: 0;
+    position: fixed;
+}

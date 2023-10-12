@@ -21,9 +21,18 @@ body{
     justify-content:flex-start;
 }
 
-.navtexto{
-    border-style: groove;
+.navtextomenu{
+    border-style:groove;
     border-color: black;
+    border-radius: 15px;
+    color: black;
+    padding: 10px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.navtextoreceitas{
+    border-style:groove;
+    border-color:gray;
     border-radius: 15px;
     color: black;
     padding: 10px;
@@ -34,6 +43,20 @@ body{
     display: flex;
     justify-content: center;
     padding: 48px;
+    transform: translateY(20px);
+    animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float{
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
 }
 
 .maintext{
@@ -52,8 +75,18 @@ body{
     font-size:xx-large;
 }
 
+.devtext{
+    padding-left: 84px;
+}
+
+.linkgit{
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 8px;
+}
+
 footer{
-    padding: 24px;
+    padding: 32px;
     display: flex;
     color:rgb(253, 240, 220);
     background-color: rgb(36, 35, 35);
