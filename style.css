@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Kanit:ital@1&display=swap');
 *{
     margin: 0;
     padding: 0px;
@@ -8,10 +9,60 @@
 
 body{
     background-color: #ea967a;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Autour-One', sans-serif;
     font-size: 100%;
+    color: black;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    justify-content:flex-start;
 }
 
 .navtexto{
+    border-style: groove;
+    border-color: black;
+    border-radius: 15px;
     color: black;
+    padding: 10px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.sessaoimagem{
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+}
+
+.maintext{
+    display: flex;
+    font-size: larger;
+    justify-content: center;
+}
+
+.subtext{
+    display: flex;
+    font-size: larger;
+    justify-content: center;
+}
+
+.tittlepag{
+    font-size:xx-large;
+}
+
+footer{
+    padding: 24px;
+    display: flex;
+    color:rgb(253, 240, 220);
+    background-color: rgb(36, 35, 35);
+    justify-content: center;
+    align-content:center;
+    max-height: max-content;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    bottom: 0;
+    position: fixed;
 }
