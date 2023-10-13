@@ -47,6 +47,10 @@ body{
     animation: float 2s ease-in-out infinite;
 }
 
+button{
+    font-family: 'Autour-One', sans-serif;
+}
+
 @keyframes float{
     0% {
         transform: translateY(0px);
@@ -57,6 +61,13 @@ body{
     100% {
         transform: translateY(0px);
     }
+}
+
+.card-img-top{
+    height: 280px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 24px;
 }
 
 .maintext{
