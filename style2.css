@@ -83,6 +83,13 @@ section{
     display:flex;
 }
 
+.align-center-items{
+    display: flex;
+    margin-left: 720px;
+    align-items: center;
+    align-content: center;
+}
+
 footer{
     padding: 32px;
     display: flex;
