@@ -41,7 +41,7 @@ body{
 
 .sessaoimagem{
     justify-content: left;
-    padding: 48px;
+    padding-left:  50px;
 }
 
 .banner{
@@ -55,6 +55,8 @@ body{
     display: block;
     align-content: space-around;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 50px;
+    padding-top: 0px;
 }
 
 
@@ -66,7 +68,6 @@ body{
 p{
     text-indent: 40px;
     text-anchor: middle;
-    text
 }
 
 .devtext{
@@ -81,7 +82,6 @@ p{
 
 section{
     display:flex;
-    padding-top: 150px;
 }
 
 .align-center-items{
